@@ -1,1 +1,2 @@
 # Voice-Translator
+A real-time voice translator that can translate voice input and give translated voice output generated from it. It is created using google’s googleTrans API and speech_recognition library of python. It converts text from one language to another language and saves its mp3 recorded file. The playsound module is then used to play the generated mp3 file, After that, the generated mp3 file is deleted using the os module.
